@@ -17,7 +17,8 @@ read vg
 if [ $vg ]; then
   lvs $vg
 else
-  echo "No Input Selected please make a selection or ctrl c to quit" 
+  echo "No Input Selected Exiting Program"
+  exit
 fi
 #sleep 10
 echo "-----------------------------"
